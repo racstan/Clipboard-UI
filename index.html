@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clipboard UI</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark-mode">
+  <div class="top-bar">
+    <button id="toggleModeBtn">Light Mode</button>
+    <button id="exportBtn">Export Cards</button>
+    <button id="importBtn">Import Cards</button>
+    <button id="deleteAllBtn">Delete All</button>
+    <div class="autosave-container">
+      <button id="autosaveBtn">Autosave</button>
+      <select id="autosaveSelect">
+        <option value="0">Off</option>
+        <option value="1">1 min</option>
+        <option value="5">5 min</option>
+        <option value="15">15 min</option>
+        <option value="30">30 min</option>
+        <option value="60">1 hr</option>
+      </select>
+    </div>
+    <div class="font-container">
+      <button id="selectFontBtn">Select Font</button>
+      <select id="fontSelect">
+        <option value="'Orbitron', sans-serif">Orbitron</option>
+        <option value="'Roboto', sans-serif">Roboto</option>
+        <option value="'Montserrat', sans-serif">Montserrat</option>
+        <option value="'Lato', sans-serif">Lato</option>
+        <option value="'Open Sans', sans-serif">Open Sans</option>
+      </select>
+    </div>
+    <input type="file" id="importFile" accept="application/json" hidden>
+  </div>
+  
+  <div class="container">
+    <header class="header">
+      <h1>Clipboard UI</h1>
+    </header>
+
+    <section class="form-section">
+      <input type="text" id="captionInput" placeholder="Optional Caption..." />
+      <textarea id="textInput" placeholder="Enter your text here..."></textarea>
+      <div class="btn-row">
+        <button id="pasteBtn">Paste</button>
+        <button id="addCardBtn">Add Card</button>
+      </div>
+    </section>
+
+    <section class="cards-section">
+      <h2>Your Cards</h2>
+      <div id="cardsContainer"></div>
+    </section>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
