@@ -39,10 +39,10 @@ Try the app live:
 ## 📸 Screenshots
 
 ### Light Mode
-![Light Mode](https://github.com/user-attachments/assets/b0653aaa-5aae-4afb-988b-a2bc6790cdd9)
+![Light Mode](https://github.com/user-attachments/assets/27947f1a-28e4-481d-abde-62ea111d5cc6)
 
 ### Dark Mode
-![Dark Mode](https://github.com/user-attachments/assets/27947f1a-28e4-481d-abde-62ea111d5cc6)
+![Dark Mode](https://github.com/user-attachments/assets/b0653aaa-5aae-4afb-988b-a2bc6790cdd9)
 
 ---
 
