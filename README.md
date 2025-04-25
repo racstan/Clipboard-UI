@@ -32,7 +32,7 @@
 ## 🌐 Live Demo
 
 Try the app live:  
-👉 [clipboardui.netlify.app](https://www.clipboardui.netlify.app)
+👉 [clipboardui.netlify.app](https://clipboardui.netlify.app)
 
 ---
 
